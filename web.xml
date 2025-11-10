@@ -1,0 +1,19 @@
+<web-app>
+  <servlet>
+    <servlet-name>RegisterVehicle</servlet-name>
+    <servlet-class>RegisterVehicleServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegisterVehicle</servlet-name>
+    <url-pattern>/register</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>SearchVehicle</servlet-name>
+    <servlet-class>SearchVehicleServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SearchVehicle</servlet-name>
+    <url-pattern>/search</url-pattern>
+  </servlet-mapping>
+</web-app>
